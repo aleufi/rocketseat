@@ -1,0 +1,236 @@
+
+/*Configurações Universais e Body */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color: white;
+    --bg-gradient: linear-gradient(45deg, #161616 0%, #1b3041 50%, #162029 100%) center no-repeat;
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --bhover-color: rgba(102, 102, 102, 0.15);
+    --switch-bg-url: url(./Assets/moon.svg)
+    
+}
+
+.light{
+    --text-color: black;
+    --bg-gradient: linear-gradient(45deg, #eaeaea 0%, #f1dbce 50%, #eac9af 100%) center no-repeat;
+    --stroke-color: rgba(0, 0, 0, 0.6);
+    --bhover-color: rgba(80, 80, 80, 0.15);
+    --switch-bg-url: url(./Assets/sun.svg)
+}
+
+
+body *{
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+}
+
+body{
+    /*     
+    background-image: url(./Assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover
+
+    Atalho (shorthand); */
+   
+    
+    /* background: var(--bg-url) no-repeat top center/cover; */
+    
+    background: var(--bg-gradient);
+    background-size: 100% 100% !important;
+    padding-bottom: 100px;
+    
+}
+
+
+/* Configurações Container de Conteúdo */
+
+#contContainer{
+    /* border: 2px solid red; */
+    height: 712px;
+    width: 360px;
+     
+    padding: 54px 24px 0 24px; 
+
+    
+    /*  margin-right: auto;
+        margin-left: auto;
+    
+        Shorthand:
+
+    */
+
+    margin: auto;
+}
+
+
+/* Configurações Div Foto e @ */ 
+
+#profile{
+    /* border: 2px solid red; */
+    padding: 24px;
+}
+
+#profile img{
+    
+    width: 112px;
+    display: block;
+    margin: auto;
+    border-radius: 66px;
+    border: 2px solid var(--text-color);
+}
+
+#profile p{
+    /* border: 2px solid red; */
+    
+    display: table;
+    margin: auto;
+    
+    font-weight: 500px;
+    font-size: 16px;
+    
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+/* Switch */
+
+#switch{
+/*     border: 2px solid yellow; */
+    position: relative;
+    width: 64px;
+    margin: auto;
+}
+
+button{
+/*     border: 2px solid red; */
+
+    height: 32px;
+    width: 32px;
+    
+    background: white var(--switch-bg-url) no-repeat center;
+    background-size: 22px 22px;
+    
+    border: 0;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+
+.light button{
+    right: 0;
+    left: initial
+}
+
+span{
+    /* border: 2px solid green; */
+
+    height: 24px;
+    width: 64px;
+    
+    display: block;
+    border: 1px solid var(--stroke-color);
+    border-radius: 9999px;
+    
+}
+
+
+/* Configurações div Botões */
+
+ul{
+    /* border: 2px solid yellow; */
+    list-style: none;
+
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+/* ul li a{
+
+    padding: 16px 24px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid black;
+    border: 2px solid green;
+
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+
+    text-decoration: none;
+    font-weight: 500;
+
+    transition: background 0.2s
+} */
+
+li a{
+
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    text-decoration: none;
+    border: 2px solid var(--stroke-color);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+
+    font-weight: 500;
+
+    transition: background 0.2s;
+}
+
+ul li a:hover{
+    background-color: var(--bhover-color);
+}
+
+/* Configurações div Links */
+
+#links{    
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 24px 0px;
+}
+
+ion-icon{
+    /* border: 2px solid green; */
+    font-size: 24px;
+    padding: 16px;
+
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+ion-icon:hover{
+    background-color: var(--bhover-color);
+}
+
+
+/* Configurações footer */
+
+footer{
+/*     border: 2px solid red; */
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+}

@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./StyleRCK4.css">
+        <link rel="icon" href="./Media/Rckt4/icons8-javascript.svg">
+
+        <title>JavaScript - Rocketseat</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+    
+    <div id="oqProg">
+        <h1>O que é programação?</h1>
+
+        <div class="oqProg">
+            <p>Programação nada mais é do que ensinar o computador a partir de metodologias e passos:</p>
+
+            <ul>
+                <li><b>Algoritimos:</b> Sequência de passos, conjuntos e regras que precisam seguir uma lógica</li>
+                <li><b>Lógica de programação:</b> Maneira de se pensar escrita de forma correta</li>
+                <li><b>Sintaxe:</b> Maneira correta de escrever</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div id="oqJava">
+        <h1>O que é JavaScript?</h1>
+
+        <div class="oqJava">
+            <p>JavaScript foi inicialmente criado para "fazer as págnias web mais vivas"</p> 
+            <p>Os programas dessa linguagem são chamados scripts, estando em meio ao código HTML da págnia e executando enquanto a ela carrega.</p>
+            <p>Scripts são providos e executados como texto, sem necessidade de preparação ou programas especiais para executar.</p>
+            <p>Quando JavaScript foi criado, possuia inicialmente o nome de "LiveScript". Mas Java já era muito popular naquela época, então foi decidido que renomear a linguagem como um "irmão mais novo" do Java ajudaria na popularidade.</p>
+            <p>Ao evoluir, JavaScript se tornou uma linguagem totalmente independente, tendo atualmente nenhuma relação com Java. </p>
+
+
+            <h3>JavaScript atualmente</h3>
+
+            <p>Nas tecnoloias atuais, JavaScript pode não somente ser executado no browser, mas também no server e em qualquer dispositivo que possua um programa especial chamado "the JavaScript engine".</p>
+            <p>O browser possui geralmente uma engine imbutida, chamada "JavaScript virtual machine"</p>
+            <p>Diferentes engines possuem diferentes codinomes, como:</p>
+            <ul>
+                <li><b>V8</b> - no Chrome, Opera e Edge</li>
+                <li><b>SpiderMonkey</b> - no Firefox</li>
+                <li>... E há outros codinomes como "Chakra" para Internet Explorer, "JavaScriptCore", "Nitro" e "SquirrelFish" para Safari, etc.</li>
+            </ul>
+            <p>Os temos acima são importantes de serem lembrados pois são usados em artigos de programação.</p>
+
+
+            <h3>Como funcionam as Engines?</h3>
+
+            <p>Engines são complicadas, mas em seus aspectos básicos são:</p>
+            <ol>
+                <li>A engine (imbutida se for no browser) lê (analisa - "parses") o script.</li>
+                <li>Converte ("compiles") o script para código de máquina.</li>
+                <li>Então a máquina executa o código.</li>
+            </ol>
+            <p>A engine aplica otimizações para cada passo do processo. Até observa o script compilado enquando executa, analiza os dados que passam por ele e otimiza o código para a máquina baseado nessas informações.</p>
+
+
+            <h3>O que o JavaScript do browser pode fazer?</h3>
+
+            <p>O JavaScript moderno é uma lingua de programação "segura". Ela não necessita de acesso de baixo nível da memória ou da CPU pois foi inicialmente criada para browsers que não tinham essas necessidades.</p>
+            <p>In-browser, o JavaScript pode fazer tudo relacionado à <b>manipulação da webpage, interação com o usuário e webserver.</b></p>
+            <p>Alguns exemplos são:</p>
+            <ul>
+                <li>Adicionar novo HTML à pagina, mundando seu conteúdo ou estilos.</li>
+                <li>Reagir a ações do usuário, cliques, movimentações do mouse, e a teclas pressionadas.</li>
+                <li>Enviar solicitações para servidores remotos, baixar e upar arquivos (chamadas de tecnologias AJAX e COMET).</li>
+                <li>Estabelecer cookies, fazer perguntas ao client, mostrar alertas.</li>
+                <li>Se lembrar de datas no client-side (local storage).</li>
+            </ul>
+
+
+            <h3>O que torna JavaScript único?</h3>
+            
+            <p>Existem 3 aspectos principais que qualificam o JavaScript:</p>
+            <ul>
+                <li>Total integração com HTML/CSS.</li>
+                <li>Coisas simples podem ser feitas de forma simples.</li>
+                <li>Compatibilidade com os maiores browsers e habilitada neles por padrão.</li>
+            </ul>
+            <p>JavaScript é a única tecnologia de browser que combina esses três aspectos.</p>
+            <p>Isso que o torna único, sendo a ferramenta mais disseminada mundialmente para criar interfaces do browser.</p>
+            <p>Além disso, também pode ser utilizada para criar servers, aplicações mobile, etc.</p>
+
+            <h3>Por que aprender JavaScript?</h3>
+
+            <p>A programação JavaScript pode ser aplicada em aplicativos WEB, Desktop, e Mobile. <br>
+                É utilizada pela maioria das empresas famosas e sucedidas na área da tecnologia (Google, Netflix, Tiktok) <br>
+                Possui uma comunidade moderna e viva, que cresce de forma interativa entre seus usuários cade vez mais.
+            </p>
+
+        </div>
+    </div>
+
+
+    <div id="estrutura">
+        <h1>Estrutura do código</h1>
+        <div class="estrutura">
+            <p>A primeira coisa que vamos estudar é a construção de blocos de código.</p>
+            
+            <h3>Statements (declarações)</h3>
+            <p>Statements são construções de sintaxe e comandos que executam ações.</p>
+            <p>Nós podemos ter quantos statements foram necessários em um arquivo de código. Statements podem ser separados com ponto e vírgula (;).</p>
+            <p>Por exemplo, aqui dividimos a mensagem "Hello World" em dois alertas.</p>
+            <pre>
+            alert('Hello'); alert('World');
+            </pre>
+            <p>Geralmente, diferentes statements são escritos em linhas separadas para tornar o código mais visível.</p>
+            <pre>
+            alert('Hello');
+            alert('World');
+            </pre>
+
+            <h3>Semicolons (;)</h3>
+            <p>O ponto e vírgula pode ser omitido na maioria dos casos onde há uma quebra de linha:</p>
+            <pre>
+            alert('Hello')
+            alert('World')
+            </pre>
+            <p>Aqui, o JavaScript interpreta a quebra de linha como um ponto e vírgula implícito. Isso é chamado de <b>inserção automática de ponto e vírgula.</b></p>
+            <p>Na maioria dos casos uma nova linha implica um ponto e vírgiula. Mas isso nem sempre acontece.</p>
+            <pre>
+                alert(3 +
+                1
+                + 2);
+            </pre>
+            <p>O código acima resulta em 6 pois o JavaScript não insere ponto e vírgula. É intuitivamente óbvio que uma linha que termina com + representa uma expressão incompleta.</p>
+
+            <h3>Comentários</h3>
+            <p>Os comentários no JavaScript podem ocupar apenas uma linha ou podem ser toda uma seção do código:</p>
+            <pre>
+                //Isso é uma linha de comentário própria
+                alert('Hello');
+
+                alert('World'); //Isso é um comentário que sucede o statement 
+            </pre>
+            <p>Comentários multi-linha são realizados da mesma forma que no HTML:</p>
+            <pre>
+                /* Esse é um exemplo de
+                um comentário multi-linha
+                */
+                alert('Hello');
+                alert('World');
+            </pre>
+
+        </div>
+
+    </div>
+
+
+    <div id="variaveis">
+        <h1>Variáveis</h1>
+
+        <div class="variaveis">
+            <p>Uma "Caixinha" onde guardamos um tipo de dado para usarmos mais tarde.</p>
+            <p>Os dados são informações que podem ser <nav id="pEnfase">textos, números, booleanos (Valores lógicos: Verdadeiro ou Falso)</nav><p> ou dados mais </p><nav id="pEnfase">estruturados.</nav> </p>
+
+            <h3>Estrutura</h3>
+            
+            <img src="./Media/Rckt4/1.png" height="200">
+            <img src="./Media/Rckt4/2.png" height="200">
+        </div>
+
+    </div>
+
+
+    <div id="Funcoes">
+        <h1>Funções</h1>
+        
+        <div class="funcoes">
+                        
+            <p>"Tags" / palavras de ação da linguagem JavaScript</p>
+
+            <ul>
+                <li>Agrupamento de código</li>
+                <li>Reuso de código</li>
+                <li>Mini programas dentro do programa maior</li>
+                <li>Toda linguagem oferece muitas opções</li>
+            </ul>
+
+            <h3>Estrutura</h3>
+            <p>Usando uma função / Criando uma função</p>
+
+            <br>
+            <br>
+
+            <img src="Media/Rckt4/3.png" height="100">
+            <img src="/Media/Rckt4/5.png" height="100">
+
+        </div>
+
+
+    </div>
+
+    
+    <div id="objetos">
+        <h1>Objetos</h1>
+        
+        <div class="objetos">
+            <p>Tudo são objetos. Possuem:</p>
+            
+            <ul>
+                <li><b>Atributos:</b> são as propriedades do objeto</li>
+                <li><b>Métodos:</b> são as funcionalidades de um objeto</li>
+            </ul>
+
+            <h3>Estrutura</h3>
+
+            <img src="/Media/Rckt4/6.png" height="200">
+            <br>
+            <br>
+            <p>Criação de variável  [ const celular = ] <br>
+                Definição de atributos [ cor: "preto" , ligar: function() ] <br>
+                Definição de função para atributo 'ligar' [ alert ("ligando") ]                
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    </body>
+
+
+
+</html>

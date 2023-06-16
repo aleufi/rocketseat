@@ -1,0 +1,232 @@
+
+:root{
+    --text-color: white;
+    --h1-bg-color: rgba(247, 224, 24);
+    --mainbg-color: #1c1c1c;
+    --secbg-color: #181818;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* ----------------------------------------- */
+
+.oqProg{
+    /* border: 2px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    padding: 12px;
+
+    width: 900px;
+    height: fit-content;
+}
+
+.oqJava{
+    /* border: 2px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    padding: 12px;
+
+    width: 900px;
+    height: fit-content;
+}
+
+.estrutura{
+/*     border: 2px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 12px;
+    
+    width: 900px;
+    height: fit-content;
+}
+
+.variaveis{
+    /* border: 2px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    padding: 12px;
+
+    width: 900px;
+    height: fit-content;
+}
+
+.funcoes{
+/*     border: 2px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 12px;
+    
+    width: 900px;
+    height: fit-content;
+}
+
+.objetos{
+/*     border: 2px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    padding: 12px;
+        
+    width: 900px;
+    height: fit-content;
+}
+
+
+/* ----------------------------------------- */
+
+#oqProg{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--secbg-color)
+}
+
+#oqJava{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--mainbg-color)
+}
+
+#estrutura{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--secbg-color);
+}
+
+#variaveis{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--mainbg-color)
+}
+
+#funcoes{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--secbg-color);
+}
+
+#objetos{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--mainbg-color)
+}
+
+
+/* ----------------------------------------- */
+
+#pEnfase{
+    display: inline;
+    padding: 0px 6px;
+    border-radius: 4px;
+
+    background-color: #030609;
+    color: #b55e66;
+
+    font-weight: 500px;
+}
+
+/* ----------------------------------------- */
+
+body{
+    padding-top: 100px;
+    background-color: #1c1c1c;
+}
+
+h1{
+    font-weight: 500px;
+
+    display: table;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    
+    padding: 12px 24px;
+
+    background-color: var(--h1-bg-color);
+    color: black;
+
+    border-radius: 10px;
+}
+
+h3{
+    color: white;
+    font-weight: 400px;
+
+    margin-top: 50px;
+    border-bottom: 2px solid rgba(247, 224, 24);
+    padding: 0px 0px 4px;
+    width: 400px;
+
+}
+
+
+p{
+    color: var(--text-color);
+    font-weight: 400px;
+    display: block;
+}
+
+ul{
+    background-color: #252525;
+
+    padding-left: 0px;
+    padding: 12px 36px;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    width: fit-content;
+
+    border-radius: 10px;
+
+    color: var(--text-color)
+}
+
+ol{
+    background-color: #252525;
+
+    padding-left: 0px;
+    padding: 12px 36px;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    width: fit-content;
+
+    border-radius: 10px;
+
+    color: var(--text-color)
+}
+
+img{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+pre{
+    display: block;
+    background-color: #282a36;
+    width: fit-content;
+
+    padding-top: 13px;
+    padding-right: 100px;
+    color: #f0f989;
+    margin-top: 20px;
+}
+
+/* ----------------------------------------- */
+
+.variaveis p{
+    display: inline
+}
