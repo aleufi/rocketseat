@@ -13,10 +13,13 @@ Todo o histórico do meu primeiro contato com o mundo Dev, <br> patrocinado pelo
     <a href="#Licença">Licença</a> 
 </div>
 
+<br>
+
 <div align="center">
-    <img alt="Preview Rocketseat" src=".github/preview.jpg>" width="100%">
+    <img alt="Preview Rocketseat" src=".github/preview.jpg" width="100%">
 </div>
 
+<br>
 
 ## 💻 Tecnologias
 
