@@ -44,7 +44,10 @@ body{
     
     background: var(--bg-gradient);
     background-size: 100% 100% !important;
+    background-attachment: fixed;
+
     padding-bottom: 100px;
+    height: 100vh; /* Viewport height */
     
 }
 
@@ -52,7 +55,7 @@ body{
 /* Configurações Container de Conteúdo */
 
 #contContainer{
-    border: 2px solid red;
+/*     border: 2px solid red; */
     height: 712px;
     width: 100%;
     max-width: 588px;
@@ -232,6 +235,7 @@ ion-icon:hover{
 footer{
 /*     border: 2px solid red; */
     margin-top: 12px;
+    padding-bottom: 50px;
     text-align: center;
     font-size: 14px;
 }
