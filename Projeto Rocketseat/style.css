@@ -52,9 +52,10 @@ body{
 /* Configurações Container de Conteúdo */
 
 #contContainer{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 712px;
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
      
     padding: 54px 24px 0 24px; 
 
