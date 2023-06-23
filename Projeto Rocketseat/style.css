@@ -130,11 +130,18 @@ button{
     z-index: 1;
 
     transform: translateY(-50%);
+
+    animation: slide-out 0.4s;
+    transition: background 0.2s
+    
+}
+
+button:hover{
+    outline: 8px solid var(--bhover-color)
 }
 
 .light button{
-    right: 0;
-    left: initial
+    animation: slide-in 0.4s forwards; /* forwards: mantém propriedades do estado final da animação no objeto animado (como posição, tamanho) */ 
 }
 
 span{
@@ -238,4 +245,19 @@ footer{
     padding-bottom: 50px;
     text-align: center;
     font-size: 14px;
+}
+
+
+/*-----------------------------------------*/
+
+@keyframes slide-in{
+    from{left: 0;}
+
+    to{left: 50%;}
+}
+
+@keyframes slide-out{
+    from{left: 50%;}
+
+    to{left: 0;}
 }
