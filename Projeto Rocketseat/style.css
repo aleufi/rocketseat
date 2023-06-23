@@ -131,8 +131,10 @@ button{
 
     transform: translateY(-50%);
 
+    outline: 0px solid var(--bhover-color);
+    
     animation: slide-out 0.4s;
-    transition: background 0.2s
+    transition: outline 0.2s
     
 }
 
