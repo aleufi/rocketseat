@@ -25,12 +25,12 @@ function toggleMode() {
     
     if ( html.classList.contains('light') ) {
 
-        img.setAttribute("src", "./assets/LKD3.jpg")
+        img.setAttribute("src", "./Rocketseat/assets/LKD3.jpg")
     }
 
     else {
 
-        img.setAttribute("src", "./assets/LKD2.jpg")
+        img.setAttribute("src", "./Rocketseat/assets/LKD2.jpg")
     }
     
 
@@ -41,8 +41,3 @@ function toggleMode() {
 
 }
 
-function digaOi() {
-    
-    alert("Eu sou o Aleufi")
-
-}

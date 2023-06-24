@@ -12,7 +12,7 @@
     --bg-gradient: linear-gradient(45deg, #161616 0%, #1b3041 50%, #162029 100%) center no-repeat;
     --stroke-color: rgba(255, 255, 255, 0.5);
     --bhover-color: rgba(102, 102, 102, 0.15);
-    --switch-bg-url: url(./Assets/moon.svg)
+    --switch-bg-url: url(./Rocketseat/Assets/moon.svg)
     
 }
 
@@ -21,7 +21,7 @@
     --bg-gradient: linear-gradient(45deg, #eaeaea 0%, #f1dbce 50%, #eac9af 100%) center no-repeat;
     --stroke-color: rgba(0, 0, 0, 0.6);
     --bhover-color: rgba(80, 80, 80, 0.15);
-    --switch-bg-url: url(./Assets/sun.svg)
+    --switch-bg-url: url(./Rocketseat/Assets/sun.svg)
 }
 
 
@@ -132,7 +132,7 @@ button{
     transform: translateY(-50%);
 
     outline: 0px solid var(--bhover-color);
-    
+
     animation: slide-out 0.4s;
     transition: outline 0.2s
     
