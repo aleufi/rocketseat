@@ -25,12 +25,12 @@ function toggleMode() {
     
     if ( html.classList.contains('light') ) {
 
-        img.setAttribute("src", "./Rocketseat/assets/LKD3.jpg")
+        img.setAttribute("src", "./Rocketseat/Assets/LKD3.jpg")
     }
 
     else {
 
-        img.setAttribute("src", "./Rocketseat/assets/LKD2.jpg")
+        img.setAttribute("src", "./Rocketseat/Assets/LKD2.jpg")
     }
     
 
